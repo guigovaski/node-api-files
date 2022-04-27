@@ -1,8 +1,7 @@
-import express from 'express';
+import express, { Request, Response, ErrorRequestHandler } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import path from 'path';
-import { Request, Response, ErrorRequestHandler } from 'express';
 import { MulterError } from 'multer';
 
 import routes from './routes/MainRoutes';
